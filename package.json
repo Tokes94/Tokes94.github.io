@@ -1,0 +1,23 @@
+{
+  "name": "tokes94.github.io",
+  "version": "1.0.0",
+  "description": "This is a testing environment for CS5 and other frontend frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokes94/Tokes94.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tokes94/Tokes94.github.io/issues"
+  },
+  "homepage": "https://github.com/Tokes94/Tokes94.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
