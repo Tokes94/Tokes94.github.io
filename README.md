@@ -3,7 +3,7 @@
 This is a testing environment for CS5 and other frontend frameworks.
 
 To startup Browser sync type in the following to the terminal window.
-Use this code:  browser-sync start --server --watch
+Use this code:  browser-sync start --server --files --watch
 
 Heading	
 # H1
