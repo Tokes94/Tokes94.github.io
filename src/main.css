@@ -100,20 +100,29 @@
 /*Table css*/
 
 .table {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+  width: 800px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 1rem;
 }
 
-.table tr td {
-  flex-grow: 1;
-  flex:1;
+table {
+  table-layout: fixed;
+  width: 120px;
+  border: 5px solid red;
 }
 
 td {
+  border: 1px solid blue;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+th {
   background-color:green!important;
-  color:red;
+  color: white;
 }
 
 /*category items*/
