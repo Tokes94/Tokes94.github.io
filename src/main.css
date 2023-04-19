@@ -97,6 +97,25 @@
   --bs-btn-padding-x: 3rem;
 }
 
+/*Table css*/
+
+.table {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.table tr td {
+  flex-grow: 1;
+  flex:1;
+}
+
+td {
+  background-color:green!important;
+  color:red;
+}
+
 /*category items*/
 
 .category-blue{
